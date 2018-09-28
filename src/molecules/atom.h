@@ -11,6 +11,6 @@ public:
 void set_coordinates();  // sets the coordinates
 void set_atomkind(); // sets the atom kind
 
-void translate atom(); // 
+void translate atom(double x, double y, double z); // give in the coordinates to translate the atom
 }
 
