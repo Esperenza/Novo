@@ -1,0 +1,1 @@
+// class defining a monomer
