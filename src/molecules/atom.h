@@ -14,10 +14,6 @@ public:
   double get_Yaxis(){return coordinates[1];}
   double get_Zaxis(){return coordinates[2];}
 
-<<<<<<< HEAD
 void translate(double x, double y, double z); // give in the coordinates to translate the atom
-=======
-void translate(double x, double y, double z); // give in the coordinates to translate the atom
->>>>>>> 83676f9afc662f0e24a32ebf1ab880c4ef0ebd02
 }
 
