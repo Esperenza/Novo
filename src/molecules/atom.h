@@ -8,9 +8,13 @@ private:
 public:
   atom(); // creator
   ~atom(); // destructor
-void set_coordinates();  // sets the coordinates
-void set_atomkind(); // sets the atom kind
+  void set_coordinates();  // sets the coordinates
+  void set_atomkind(); // sets the atom kind
+  double get_Xaxis(){return coordinates[0];}
+  double get_Yaxis(){return coordinates[1];}
+  double get_Zaxis(){return coordinates[2];}
 
-void translate atom(); // 
+
+void translate atom(double x, double y, double z); //
 }
 
